@@ -1,6 +1,9 @@
 fancy_echo "Installing Postgres, a good open source relational database ..."
   brew install postgres --no-python
 
+fancy_echo "Installing Postgres, a good open source relational database ..."
+  brew install mysql
+
 fancy_echo "Installing Redis, a good key-value database ..."
   brew install redis
 

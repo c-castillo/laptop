@@ -38,13 +38,13 @@ Install
 
 Read, then run the script:
 
-    bash <(curl -s https://raw.github.com/thoughtbot/laptop/master/mac)
+    bash <(curl -s https://raw.github.com/c-castillo/laptop/master/mac)
 
 ### Linux
 
 Read, then run the script:
 
-    bash <(wget -qO- https://raw.github.com/thoughtbot/laptop/master/linux)
+    bash <(wget -qO- https://raw.github.com/c-castillo/laptop/master/linux)
 
 What it sets up
 ---------------
@@ -59,6 +59,7 @@ What it sets up
 * Homebrew for managing operating system libraries (OS X only)
 * ImageMagick for cropping and resizing images
 * Postgres for storing relational data
+* Mysql for storing relational data
 * Qt for headless JavaScript testing via Capybara Webkit
 * Rails gem for writing web applications
 * Rbenv for managing versions of the Ruby programming language
@@ -99,7 +100,7 @@ Thank you, [contributors](https://github.com/thoughtbot/laptop/graphs/contributo
 Contributing
 ------------
 
-Please see [CONTRIBUTING.md](https://github.com/thoughtbot/laptop/blob/master/CONTRIBUTING.md).
+Please see [CONTRIBUTING.md](https://github.com/c-castillo/laptop/blob/master/CONTRIBUTING.md).
 
 License
 -------

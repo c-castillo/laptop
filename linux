@@ -64,6 +64,9 @@ fancy_echo "Installing sqlite3, for prototyping database-backed rails apps"
 fancy_echo "Installing Postgres, a good open source relational database ..."
   sudo aptitude install -y postgresql postgresql-server-dev-all
 
+fancy_echo "Installing Postgres, a good open source relational database ..."
+  sudo aptitude install -y mysql-server
+
 fancy_echo "Installing Redis, a good key-value database ..."
   sudo aptitude install -y redis-server
 
