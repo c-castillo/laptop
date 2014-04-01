@@ -10,6 +10,13 @@ fancy_echo "Installing Redis, a good key-value database ..."
 fancy_echo "Installing The Silver Searcher (better than ack or grep) to search the contents of files ..."
   brew install the_silver_searcher
 
+fancy_echo "Installing Brew Cask"
+  brew tap phinze/cask
+  brew install brew-cask
+
+fancy_echo "Installing Launchrocket"
+  brew cask install launchrocket
+
 fancy_echo "Installing vim from Homebrew to get the latest version ..."
   brew install vim
 
